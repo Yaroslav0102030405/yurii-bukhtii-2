@@ -1,12 +1,12 @@
-// new Splide('#slider1').mount();
-// new Splide('#slider2').mount();
-// new Splide('#slider3').mount();
-// new Splide('#slider4').mount();
-// new Splide('#slider5').mount();
-// new Splide('#slider6').mount();
-// new Splide('#slider7').mount();
-// new Splide('#slider9').mount();
-// new Splide('#slider11').mount();
+new Splide('#slider1').mount();
+new Splide('#slider2').mount();
+new Splide('#slider3').mount();
+new Splide('#slider4').mount();
+new Splide('#slider5').mount();
+new Splide('#slider6').mount();
+new Splide('#slider7').mount();
+new Splide('#slider9').mount();
+new Splide('#slider11').mount();
 
 // Щоб анімація була послудовною AOS
 const stack = [];
@@ -46,7 +46,7 @@ elementsToTrack.forEach(element => {
 import './js/lang';
 import './js/hero-modal';
 // import './js/modal';
-// import './js/modal-2';
+import './js/modal-2';
 import './js/scrollPage';
 import './js/smoothscroll';
 import './js/telegram-1';
