@@ -1,0 +1,163 @@
+.service {
+  @extend %section-padding;
+  background-color: $bg-2;
+  // background-color: #21253e;
+}
+
+.service__title {
+  @extend %title;
+  cursor: text;
+}
+
+.service__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 30px;
+
+  @media screen and (max-width: 769px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 580px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.service__item {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto 1fr;
+  padding: 15px;
+  // height: 100%;
+  background-color: #454d71;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 6px;
+  border: 1px solid $text-color;
+  transition: border 250ms linear;
+
+  background: linear-gradient(to right, #3e446457, #e4c9a23b),
+    url(/src/image/background/2aa.avif);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.service__pre-title {
+  padding-top: 10px;
+  color: $accent-text;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: text;
+}
+
+.service__description {
+  margin-bottom: 0;
+  color: $text-color;
+  @extend %font__size;
+  cursor: text;
+}
+
+.service__price {
+  margin-bottom: 0;
+  color: $text-color;
+  @extend %font__size;
+}
+
+.service__price-1 {
+  margin-bottom: 0;
+  color: $text-color;
+  @extend %font__size;
+}
+
+.service__price-2 {
+  color: $text-color;
+  @extend %font__size;
+}
+
+.service__button {
+  @extend %button;
+  @extend %margin;
+}
+
+.service__button:hover,
+.service__hover:focus {
+  @extend %button__hover;
+}
+
+.p {
+  @extend %section-padding;
+  // background-color: $bg-2;
+  background-color: #21253e;
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 30px;
+
+  @media screen and (max-width: 769px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 580px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.portfolio li {
+  padding: 17px;
+  border: 1px solid $text-color;
+  border-radius: 6px;
+  background-color: $bg-color;
+
+  background: linear-gradient(to right, #3e446457, #e4c9a23b),
+    url(/src/image/background/2aa.avif);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  @media screen and (max-width: 580px) {
+    padding: 7px;
+  }
+}
+
+.portfolio-title {
+  @extend %title;
+  cursor: text;
+}
+
+.portfolio-subtitle {
+  text-align: center;
+  color: $text-color;
+  font-size: clamp(14px, 4.25vw, 16px);
+  cursor: text;
+}
+
+// вваііві
+/* Максимальна ширина контейнера слайдера, якщо ви хочете обмежити його */
+.service__item .splide {
+  max-width: 1280px; /* Обмежуємо ширину самого контейнера Splide */
+  margin: 0 auto; /* Центруємо контейнер на сторінці */
+
+  /* Встановлюємо фіксовану мінімальну висоту для контейнера Splide, 
+    яка відповідає висоті ваших зображень */
+  max-height: 260px;
+}
+
+/* Встановлюємо фіксовану мінімальну висоту для треку слайдера */
+.service__item .splide__track {
+  max-height: 260px;
+}
+
+/* Стилі для самих зображень всередині слайдера */
+.service__item .splide__slide img {
+  width: 100%; /* Зображення займає всю доступну ширину */
+  max-height: 260px; /* Встановлюємо фіксовану висоту, як у ваших фото */
+  object-fit: cover; /* Зображення заповнює простір, обрізаючи краї, якщо потрібно */
+
+  /* Якщо ви хочете, щоб зображення ніколи не було ширшим, ніж 1280px, 
+    але дозволяли йому стискатися на менших екранах */
+  max-width: 1280px;
+}
