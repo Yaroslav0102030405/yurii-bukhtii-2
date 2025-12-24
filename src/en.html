@@ -84,10 +84,9 @@
       name="description"
       content="I help foreign businesses — from small startups to large corporations — find the best office to launch their business in Warsaw"
     />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
       rel="stylesheet"
@@ -95,10 +94,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.scss" />
   </head>
-  <body class="show-modal">
+    <body class="show-modal">
     <header id="header" class="header">
       <div class="container">
-        <a lang="en" class="logo" href="./en.html">
+        <a lang="en" class="logo" href="./index.html">
           <img
             loading="lazy"
             class="logo__image"
@@ -112,46 +111,38 @@
 
         <nav class="nav">
           <ul class="header__menu">
-            <li><a href="./ru.html">RU</a></li>
-            <li><a href="./pl.html">PL</a></li>
             <li>
               <a
                 class="active js-play-sound"
                 href="#header"
                 data-lang="header_menu-home"
-                >Broker</a
+                >Брокер</a
               >
             </li>
+  
             <li>
               <a
                 class="js-play-sound"
-                href="#advantages"
-                data-lang="header_menu-advantages"
-                >Advantages</a
+                href="#service"
+                data-lang="header_menu-service"
+                >Кейси</a
               >
             </li>
-            <li>
+             <li>
               <a
                 class="js-play-sound"
                 href="#about"
                 data-lang="header_menu-about"
-                >Experience</a
+                >Переваги</a
               >
             </li>
+       
             <li>
               <a
-                class="js-play-sound"
-                href="#cases"
-                data-lang="header_menu-cases"
-                >Cases</a
-              >
-            </li>
-            <li>
-              <a
-                class="js-play-sound"
+                class=" js-play-sound"
                 href="#contacts"
                 data-lang="header_menu-contacts"
-                >Contacts</a
+                >Контакти</a
               >
             </li>
           </ul>
@@ -182,7 +173,7 @@
             </div>
             <div class="hero__content">
               <h1 class="hero__pre-title" data-lang="header_banner-pre-title">
-                Office selection broker in Warsaw
+                Брокер з підбору офісів у Варшаві
               </h1>
               <div class="hero__wrap-buttons">
                 <button
@@ -190,72 +181,1305 @@
                   type="button"
                   data-lang="header_banner-button"
                 >
-                  Free consultation
+                  Безкоштовна консультація
                 </button>
                 <a
                   href="tel:+48735775810"
                   class="button expand__button js-play-sound"
                   data-lang="header_banner-link"
                 >
-                  Or call the number +48 735 775 810</a
+                  Або зателефонувати за номером +48 735 775 810</a
                 >
               </div>
             </div>
           </div>
         </div>
       </section>
+     
 
-      <section id="advantages" class="advantages scroll">
+      <section id="service" class="service scroll">
         <div class="container">
           <h2
-            class="advantages__title"
-            data-lang="advantages_title-2"
+            class="service__title"
+            data-lang="service_title"
             data-aos="fade-up"
             data-aos-duration="3000"
           >
-            My advantages
+            Я займаюся пошуком найкращих варіантів оренди для клієнтів
           </h2>
-          <ul class="advantages__list">
-            <li class="advantages__item" data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="advantages__item d"
-                data-aos="zoom-in"
-                src="./image/advantages/g.png"
-                alt="1"
-              />
-              <p class="advantages__text" data-lang="advantages_pre-title-4">
-                Exclusive office base
+          <ul class="service__list cards">
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider1"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob1/1z.webp"
+                        alt="велике по розміру офісне приміщення на першому поверху як хол"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob1/1-2.webp"
+                        alt="коридоз з ліфтами в офісній будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob1/1-3.webp"
+                        alt="гостинна в офісній будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob1/1-4.webp"
+                        alt="гостинна в офісний будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob1/1.6z.webp"
+                        alt="офісне приміщення з велики стеклянною стіною"
+                      />
+                    </li>
+
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob1/1.7z.webp"
+                        alt="офісне приміщення з великим вікном та видом на місто"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob1/1.5z.webp"
+                        alt="коридор з різними дверями офісних приміщень"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob1/1-5.webp"
+                        alt="офісне приміщення з велики стеклянною стіною"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <h3
+                aria-label="заголовко послуги з оренди офісу в варшаві"
+                class="service__pre-title"
+                data-lang="service_title-1"
+              >
+                1 Оренда офісу в Варшаві
+              </h3>
+              <p
+                aria-label="описання для послуги з оренди офісу в варшаві"
+                class="service__description"
+                data-lang="service_desc-1-1"
+              >
+                Для Вас я знайду офіс в різних районах Варшави.
               </p>
+              <p
+                class="service__price"
+                data-lang="service_desc-1-2"
+                style="margin-top: 20px"
+              >
+                Метраж від 50 до 30 000 мкв.
+              </p>
+
+              <p class="service__price-2" data-lang="service_desc-1-3">
+                *Послуга повністю безкоштовна і немає прихованих комісій
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-1"
+              >
+                Безкоштовна консультація
+              </button>
             </li>
-            <li class="advantages__item" data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="advantages__item d"
-                data-aos="zoom-in"
-                src="./image/advantages/g.png"
-                alt="2"
-              />
-              <p class="advantages__text" data-lang="advantages_pre-title-5">
-                Personal selection
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider2"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                      <img
+                        class="img"
+                        width="510"
+                        height="270"
+                        src="./image/ob2/2q.webp"
+                        alt="стеклянна будівля хмарочос"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob2/2.1q.webp"
+                        alt="велике офісне приміщення зі багатьма стеклами"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob2/2-2.webp"
+                        alt="вид на місто з офісного приміщення"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob2/2-1.webp"
+                        alt="будівля хмарочос з офісними приміщеннями"
+                      />
+                    </li>
+                   
+
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob2/2.5q.webp"
+                        alt="приміщення холу в офісній будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob2/2.6q.webp"
+                        alt="приміщення холу в офісній будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob2/2.7.webp"
+                        alt="приміщення холу в офісній будівлі"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob2/2.8q.webp"
+                        alt="приміщення холу в офісній будівлі"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob2/2-3.webp"
+                        alt="стойка реєстрації в офісній будівлі"
+                      />
+                    </li>
+
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob2/2.10q.webp"
+                        alt="беседка в офісній будівлі"
+                      />
+                    </li>
+                   
+                  
+                  </ul>
+                </div>
+              </div>
+              <h3 class="service__pre-title" data-lang="service_title-2">
+                оренда приміщення під склад в варшаві
+              </h3>
+              <p class="service__description" data-lang="service_desc-2-1">
+                Я також займаюся орендою складів в Польщі.
               </p>
+              <p
+                class="service__price-1"
+                data-lang="service_desc-2-2"
+                style="margin-top: 20px"
+              >
+                Метраж від 500 до 30 000 мкв.
+              </p>
+              <p class="service__price-2" data-lang="service_desc-2-3">
+                *Послуга повністю безкоштовна і немає прихованих комісій
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-2"
+              >
+                Безкоштовна консультація
+              </button>
             </li>
-            <li class="advantages__item" data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="advantages__item d"
-                data-aos="zoom-in"
-                src="./image/advantages/g.png"
-                alt="4"
-              />
-              <p class="advantages__text" data-lang="advantages_pre-title-6">
-                No fee for the tenant
+
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider3"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list s__pagination">
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob3/3c.webp"
+                        alt="приміщення під тренажерний зал"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob3/3.1c.webp"
+                        alt="приміщення під склад"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob3/3.2c.webp"
+                        alt="приміщення під фітнес"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob3/3.3c.webp"
+                        alt="хмарочос"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="service__pre-title" data-lang="service_title-3">
+                реєстрації фірми в Польщі та супровід
+              </h3>
+              <p class="service__description" data-lang="service_desc-3-1">
+                Допомогаю в відкритті фірм в Польщі, повний супровід її
+                діяльності.
               </p>
+              <p
+                class="service__price-1"
+                data-lang="service_desc-3-2"
+                style="margin-top: 20px"
+              >
+                Метраж від 500 до 30 000 мкв.
+              </p>
+              <p class="service__price-2" data-lang="service_desc-3-3">
+                *Платна послуга
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-3"
+              >
+                Безкоштовна консультація
+              </button>
+            </li>
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider4"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list s__pagination">
+                     <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob4/4v.webp"
+                        alt="велике офісна будівля"
+                      />
+                    </li>
+                     
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob4/4.1v.webp"
+                        alt="офісне преміщення для проведення переговорів"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob4/4.2v.webp"
+                        alt="хол в офісний будівлі з м'якими ліжками для короткого відпочинку між роботою"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob4/4.3v.webp"
+                        alt="офісне приміщення з кухнею для приготування їжі та з столом для їжи"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob4/4.4v.webp"
+                        alt="фоісне приміщення для під проведення відео з'емки ютуб каналу"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob4/4.5v.webp"
+                        alt="офісне преміщення для проведення переговорів"
+                      />
+                    </li>
+                   
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob4/4.6v.webp"
+                        alt="хол в офісний будівлі"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="service__pre-title" data-lang="service_title-4">
+                реєстрації фірми в Польщі та супровід
+              </h3>
+              <p class="service__description" data-lang="service_desc-4-1">
+                Допомогаю в відкритті фірм в Польщі, повний супровід її
+                діяльності.
+              </p>
+              <p
+                class="service__price-1"
+                data-lang="service_desc-4-2"
+                style="margin-top: 20px"
+              >
+                Метраж від 500 до 30 000 мкв.
+              </p>
+              <p class="service__price-2" data-lang="service_desc-4-3">
+                *Платна послуга
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-4"
+              >
+                Безкоштовна консультація
+              </button>
+            </li>
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider5"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list s__pagination">
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob5/5x.webp"
+                        alt="офісне приміщення з стелками з одного боку на місто"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob5/5.1x.webp"
+                        alt="велике офісне приміщення"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob5/5.2x.webp"
+                        alt="углове офісне приміщення"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob5/5.3x.webp"
+                        alt="офісне приміщення під майбутню кухню"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob5/5.4x.webp"
+                        alt="офісне приміщення без меблів з двома вікнами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob5/5.5x.webp"
+                        alt="офісне приміщення без меблів з 6 вікнами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob5/5.6x.webp"
+                        alt="офісне приміщення без меблів"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob5/5-1.webp"
+                        alt="коридор в офісній будівлі"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="service__pre-title" data-lang="service_title-5">
+                реєстрації фірми в Польщі та супровід
+              </h3>
+              <p class="service__description" data-lang="service_desc-5-1">
+                Допомогаю в відкритті фірм в Польщі, повний супровід її
+                діяльності.
+              </p>
+              <p
+                class="service__price-1"
+                data-lang="service_desc-5-2"
+                style="margin-top: 20px"
+              >
+                Метраж від 500 до 30 000 мкв.
+              </p>
+              <p class="service__price-2" data-lang="service_desc-5-3">
+                *Платна послуга
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-5"
+              >
+                Безкоштовна консультація
+              </button>
+            </li>
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider6"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list s__pagination">
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/1m.webp"
+                        alt="Офісна будівля"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/6-1.webp"
+                        alt="ліфти в фісній будівлі"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/1.1m.webp"
+                        alt="хол в офісний будівлі"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/1.2m.webp"
+                        alt="офісне приміщення з меблями диваном креслом столом"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/1.3m.webp"
+                        alt="офісне приміщення з кухнею без стола і стілців"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/1.4m.webp"
+                        alt="офісне приміщення з меблями столами та 9 робочими місцями"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/6-11.webp"
+                        alt="офісне приміщення з меблями столами та 9 робочими місцями"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/6-2.webp"
+                        alt="офісне приміщення з меблями столами та 9 робочими місцями"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/6-3.webp"
+                        alt="коридор в офісній будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/6-4.webp"
+                        alt="офісне приміщення для проведеня підкасту для ютуб каналу"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/1.5m.webp"
+                        alt="офісне приміщення для проведеня підкасту для ютуб каналу"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob6/1.6m.webp"
+                        alt="велике офісне приміщення для проведення переговорів"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="service__pre-title" data-lang="service_title-6">
+                реєстрації фірми в Польщі та супровід
+              </h3>
+              <p class="service__description" data-lang="service_desc-6-1">
+                Допомогаю в відкритті фірм в Польщі, повний супровід її
+                діяльності.
+              </p>
+              <p
+                class="service__price-1"
+                data-lang="service_desc-6-2"
+                style="margin-top: 20px"
+              >
+                Метраж від 500 до 30 000 мкв.
+              </p>
+              <p class="service__price-2" data-lang="service_desc-6-3">
+                *Платна послуга
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-6"
+              >
+                Безкоштовна консультація
+              </button>
+            </li>
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider7"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list s__pagination">
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-1.webp"
+                        alt="офісна будівля з стеклянними стінами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-2.webp"
+                        alt="офісна будівля з стеклянними стінами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-3.webp"
+                        alt="офісне приміщення з меблями"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-4.webp"
+                        alt="офісне приміщення з м'якими кріслами та диваном"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-5.webp"
+                        alt="хол в офісний будівлі з різними дверями в офіс"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-6.webp"
+                        alt="офісне приміщення з столом та стільцями для підкасту на ютуб каналу"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-7.webp"
+                        alt="офісній преміщення з м'якими кріслами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-8.webp"
+                        alt="коридор в офісній будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-9.webp"
+                        alt="вид офісного приміщення на вулицю"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-10.webp"
+                        alt="офісній преміщення з м'якими кріслами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-11.webp"
+                        alt="офісній преміщення з м'якими кріслами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-12.webp"
+                        alt="офісній преміщення з кухнею та столом для їжи"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-13.webp"
+                        alt="офісній преміщення з м'якими кріслами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-14.webp"
+                        alt="офісній преміщення з м'якими кріслами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-15.webp"
+                        alt="офісній преміщення для введення переговорів"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-16.webp"
+                        alt="туалет в офісній будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-17.webp"
+                        alt="офісній преміщення з м'якими кріслами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-18.webp"
+                        alt="офісній преміщення зі столами та стільцями для роботи"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-19.webp"
+                        alt="офісній преміщення ддля введення переговорів"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-20.webp"
+                        alt="офісній преміщення для введення переговорів"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-21.webp"
+                        alt="офісній преміщення зі столами та стільцями для роботи"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob7/7-21.webp"
+                        alt="офісній преміщення зі столами та стільцями для роботи"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="service__pre-title" data-lang="service_title-7">
+                реєстрації фірми в Польщі та супровід
+              </h3>
+              <p class="service__description" data-lang="service_desc-7-1">
+                Допомогаю в відкритті фірм в Польщі, повний супровід її
+                діяльності.
+              </p>
+              <p
+                class="service__price-1"
+                data-lang="service_desc-7-2"
+                style="margin-top: 20px"
+              >
+                Метраж від 500 до 30 000 мкв.
+              </p>
+              <p class="service__price-2" data-lang="service_desc-7-3">
+                *Платна послуга
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-7"
+              >
+                Безкоштовна консультація
+              </button>
+            </li>
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider9"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list s__pagination">
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-1.webp"
+                        alt="офісна будівля під офіси"
+                      />
+                    </li>
+
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-2.webp"
+                        alt="офісна будівля"
+                      />
+                    </li>
+
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-3.webp"
+                        alt="кухня в офісній будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-4.webp"
+                        alt="офісне приміщення з 3 столами та 3 стульцями"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-5.webp"
+                        alt="хол в офісній будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-6.webp"
+                        alt="офісне приміщення з меблями"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-7.webp"
+                        alt="хол в офісній будівлі"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-8.webp"
+                        alt="офісне приміщення зі столами та стільцями"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-9.webp"
+                        alt="офісне приміщення для введення переговорів"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-10.webp"
+                        alt="кухня в офісній будівлі"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-11.webp"
+                        alt="офісне приміщення без меблів"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob9/9-12.webp"
+                        alt="офісне приміщення без меблів"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="service__pre-title" data-lang="service_title-8">
+                реєстрації фірми в Польщі та супровід
+              </h3>
+              <p class="service__description" data-lang="service_desc-8-1">
+                Допомогаю в відкритті фірм в Польщі, повний супровід її
+                діяльності.
+              </p>
+              <p
+                class="service__price-1"
+                data-lang="service_desc-8-2"
+                style="margin-top: 20px"
+              >
+                Метраж від 500 до 30 000 мкв.
+              </p>
+              <p class="service__price-2" data-lang="service_desc-8-3">
+                *Платна послуга
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-8"
+              >
+                Безкоштовна консультація
+              </button>
+            </li>
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider11"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list s__pagination">
+                      <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob11/1.4o.webp"
+                        alt="офісне приміщення без меблів з широкими стеклами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob11/1.3o.webp"
+                        alt="офісне приміщенн без меблів з широими стеляними вікнами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob11/1.1o.webp"
+                        alt="офісне приміщення без меблів"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob11/1.2o.webp"
+                        alt="офісне приміщенн без меблів з широими стеляними вікнами"
+                      />
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob11/1.1i.webp"
+                        alt="офісне приміщення з кухнею"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob11/1.2i.webp"
+                        alt="офісне приміщення з кухнею та великим вікном"
+                      />
+                    </li>
+                   
+
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob11/1.3i.webp"
+                        alt="хол в офісній будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob11/1.4i.webp"
+                        alt="хол в офісний будівлі"
+                      />
+                    </li>
+                    </li>
+                     <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob11/1o.webp"
+                        alt="офісне приміщенн без меблів з широими стеляними вікнами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/ob11/1i.webp"
+                        alt="Криша офісної будівлі хмарочоса з терасою"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="service__pre-title" data-lang="service_title-9">
+                реєстрації фірми в Польщі та супровід
+              </h3>
+              <p
+                class="service__description"
+                data-lang="service_desc-9-1"
+              >
+                Допомогаю в відкритті фірм в Польщі, повний супровід її
+                діяльності.
+              </p>
+              <p
+                class="service__price-1"
+                data-lang="service_desc-9-2"
+                style="margin-top: 20px"
+              >
+                Метраж від 500 до 30 000 мкв.
+              </p>
+              <p class="service__price-2" data-lang="service_desc-9-3">
+                *Платна послуга
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-9"
+              >
+                Безкоштовна консультація
+              </button>
             </li>
           </ul>
+
+          <a lang="en" class="form__logo-3 js-play-sound" href="#header">
+            <img
+              loading="lazy"
+              class="logo__image"
+              width="50"
+              height="50"
+              src="./image/image-logo.webp"
+              alt="Юрій Бухтій"
+            />
+            <p
+              class="contacts__text"
+              style="margin-bottom: 0"
+              data-lang="contacts_logo1"
+            >
+              Я безкоштовно знайду для Вас в будь-якому районі Варшави оренду
+              під офіс. Телефонуйте чи заповнюйте форму обратнього зв'язку або
+              пишіть в телеграм.
+            </p>
+          </a>
         </div>
       </section>
-      <section id="about" class="about scroll">
+
+      <section id="about"  class="about scroll">
         <div class="container">
           <h2
             class="about__title"
@@ -263,7 +1487,7 @@
             data-aos="fade-up"
             data-aos-duration="3000"
           >
-            My professional brokerage experience
+            Мій професійний брокерський досвід
           </h2>
           <div class="about__wrap">
             <div
@@ -273,42 +1497,43 @@
               data-aos-easing="ease-in-sine"
             >
               <p class="about__text" data-lang="about_description">
-                Hello! I'm Yurii Bukhtii
+                Привіт! Я Юрій Бухтій
               </p>
               <p class="about__text" data-lang="about_description2">
-                Expert in commercial real estate leasing in Warsaw with 5 years
-                of experience. I help foreign businesses — from small startups
-                to large corporations — find the best place to start a business
-                in Warsaw
+                Eксперт з оренди комерційної нерухомості у Варшаві з досвідом 5
+                років. Я допомагаю іноземному бізнесу — від маленьких стартапів
+                до великих корпорацій — знайти найкраще місце для введення
+                бізнесу у Варшаві
               </p>
               <p
                 class="about__text"
                 style="margin-top: 20px"
                 data-lang="about_description3"
               >
-                What am I useful for?
+                Чим я корисний?
               </p>
               <p class="about__text" data-lang="about_description4">
-                1. I know the market and constantly study Warsaw's offers and
-                always offer only the most relevant and profitable options
+                1. Я знаю ринок і постійно вивчаю пропозиції Варшави і завжди
+                пропоную лише актуальні та найвигідніші варіанти
               </p>
               <p class="about__text" data-lang="about_description5">
-                2. I think about your business, not just looking for square
-                footage. I understand your needs to find a location that will
-                really help your business grow
+                2. Я думаю про Ваш бізнес, а не просто шукаю квадратні метри. Я
+                розбираюся у Ваших потребах, щоб знайти місце, яке дійсно
+                допоможе Вашому бізнесу зрости
               </p>
               <p class="about__text" data-lang="about_description6">
-                3. I accompany you from the first conversation until you sign
-                the lease agreement and after, if you have any additional
-                questions. I am always in touch with you and ready to help
+                3. Я супроводжую Вас від першої розмови до моменту, коли Ви
+                підписуєте договір оренди та після, якщо у вас виникнуть якісь
+                додаткові питання. Я завжди на зв`язку з вами і готовий
+                допомогти
               </p>
               <p
                 class="about__text"
                 style="margin-top: 20px"
                 data-lang="about_description7"
               >
-                I am your reliable partner in Warsaw. If you are ready for me to
-                find you the perfect office, just call me +48 735 775 810
+                Я ваш надійним партнером у Варшаві. Якщо Ви готові щоб я знайшов
+                вам ідеальний офіс, просто зателефонуйте мені +48 735 775 810
               </p>
             </div>
             <div
@@ -329,292 +1554,15 @@
         </div>
       </section>
 
-      <section id="cases" class="p scroll">
-        <div class="container">
-          <h2
-            class="portfolio-title"
-            data-lang="portfolio-title"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            A case I closed for an IT company
-          </h2>
-          <p class="portfolio-subtitle" data-lang="portfolio-title-2">
-            Requirements: modern office with furniture, in the city center in a
-            skyscraper and with a beautiful view of the city from the windows
-          </p>
-          <ul class="portfolio">
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k1/1k.webp"
-                alt="office space with windows all around for 10 workplaces"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k1/1.2k.webp"
-                alt="office space with one window and two desks for 3 workplaces"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k1/1.3k.webp"
-                alt="office space with a large window for 6 workplaces"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k1/1.4k.webp"
-                alt="office space with one desk for 4 workstations"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k1/1.5k.webp"
-                alt="The office space is made into a lounge area, and there is a kitchen for cooking and tables for eating"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k1/1.6k.webp"
-                alt="office space with one window for 3 workplaces"
-              />
-            </li>
-          </ul>
-          <p
-            class="portfolio-subtitle"
-            style="margin-top: 20px"
-            data-lang="portfolio-title-3"
-          >
-            I fulfilled all the requirements and the company was satisfied!
-          </p>
-        </div>
-      </section>
-
-      <section class="p">
-        <div class="container">
-          <h2
-            class="portfolio-title"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-            data-lang="portfolio-title-21"
-          >
-            The case I closed for the YouTube channel
-          </h2>
-          <p class="portfolio-subtitle" data-lang="portfolio-title-22">
-            Requirements: Warm office design with skyscraper furniture and a
-            view of the Palace of Culture and Science
-          </p>
-          <ul class="portfolio">
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k2/3k.webp"
-                alt="office space with a view of the Palace of Culture and Science"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k2/3.2k.webp"
-                alt="office space with one ceiling and 6 workstations and a wide window"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k2/3.3k.webp"
-                alt="office space where gaming table games for employees are located"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k2/3.4k.webp"
-                alt="office space for negotiations with one table, TV and 10 seats"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k2/3.5k.webp"
-                alt="office space hallway"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k2/3.6k.webp"
-                alt="office space for the manager and landlord"
-              />
-            </li>
-          </ul>
-          <p
-            class="portfolio-subtitle"
-            style="margin-top: 20px"
-            data-lang="portfolio-title-23"
-          >
-            The company is very satisfied with my work!
-          </p>
-        </div>
-      </section>
-
-      <section class="p">
-        <div class="container">
-          <h2
-            class="portfolio-title"
-            data-lang="portfolio-title-31"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            A case I closed for an IT startup
-          </h2>
-          <p class="portfolio-subtitle" data-lang="portfolio-title-32">
-            Requirements: Office with furniture and a homely atmosphere
-          </p>
-          <ul class="portfolio">
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k3/2k.webp"
-                alt="office space for the manager"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k3/2.2k.webp"
-                alt="office space with home-style furnishings, a desk and a sofa for relaxation"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k3/2.3k.webp"
-                alt="office space with a kitchen for cooking and a table for eating"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k3/2.4k.webp"
-                alt="office space for negotiations"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k3/2.5k.webp"
-                alt="office space with 3 desks for 3 workstations"
-              />
-            </li>
-            <li data-aos="zoom-in">
-              <img
-                loading="lazy"
-                class="img"
-                width="415"
-                height="235"
-                src="./image/k3/2.6k.webp"
-                alt="office space with 2 sofas and a desk for work"
-              />
-            </li>
-          </ul>
-          <p
-            class="portfolio-subtitle"
-            style="margin-top: 20px"
-            data-lang="portfolio-title-33"
-          >
-            The guys from the IT startup were satisfied!
-          </p>
-
-          <a lang="en" class="form__logo-3 js-play-sound" href="#header">
-            <img
-              loading="lazy"
-              class="logo__image"
-              width="50"
-              height="50"
-              src="./image/image-logo.webp"
-              alt="Юрій Бухтій"
-            />
-            <p
-              class="contacts__text"
-              style="margin-bottom: 0"
-              data-lang="contacts_logo"
-            >
-              In total, I have successfully helped 40 companies find an office
-              for rent. I will be happy to help you too! Contact us
-            </p>
-          </a>
-        </div>
-      </section>
+    
 
       <section id="contacts" class="contacts scroll">
         <div class="container">
           <div class="contacts__wrap">
             <div class="contacts__image" data-aos="zoom-in">
-              <h2
-                class="contacts__text1"
-                style="margin-bottom: 0"
-                data-lang="form_title"
-              >
-                Free selection of offices in Warsaw for your individual needs
+              <h2 class="contacts__text1" style="margin-bottom: 0">
+                Безкоштовний підбір офісів у Варшаві під ваші індивідуальні
+                потреби
               </h2>
             </div>
             <div class="contacts__form" data-aos="zoom-in">
@@ -631,14 +1579,14 @@
                   Yurii Bukhtii</a
                 >
                 <div class="form__text1">
-                  <h3 class="form__title">
-                    Leave your contact details for a consultation
+                  <h3 class="form__title" data-lang="form_title">
+                    Залиште свої контактні дані для отримання консультації
                   </h3>
                   <label
                     for="firstname"
                     class="form__input-name"
                     data-lang="form_name"
-                    >Name*
+                    >Ім`я*
                   </label>
                   <input
                     id="firstname"
@@ -655,7 +1603,7 @@
                     for="formtel"
                     class="form__input-name"
                     data-lang="form_tel"
-                    >Phone number*
+                    >Номер телефону*
                   </label>
                   <input
                     id="formtel"
@@ -672,7 +1620,7 @@
                     for="formcomment"
                     class="form__input-name"
                     data-lang="form_comment"
-                    >Message
+                    >Повідомлення
                   </label>
                   <textarea
                     id="formcomment"
@@ -688,7 +1636,7 @@
                     class="button form__button js-play-sound"
                     type="submit"
                   >
-                    Send
+                    Відправити
                   </button>
                 </div>
                 <div class="form_answer1">
@@ -697,10 +1645,10 @@
                     style="margin-bottom: 0"
                     data-lang="form_answer1"
                   >
-                    ✅ Message sent
+                    ✅ Повідомлення відправлено
                   </p>
                   <p class="form__answer-text" data-lang="form_answer12">
-                    I will contact you within one hour
+                    Зв`яжуся з Вами протягом однієї години
                   </p>
                 </div>
               </form>
@@ -737,8 +1685,8 @@
                 <img
                   loading="lazy"
                   class="icon"
-                  width="40"
-                  height="40"
+                  width="30"
+                  height="30"
                   src="./image/footer/call-1.avif"
                   alt="логотип телефоної трубки"
                 />
@@ -747,7 +1695,7 @@
             <li>
               <a
                 class="js-play-sound"
-                aria-label="facebook logo"
+                aria-label="логотип фейсбук"
                 target="_blank"
                 rel="noreferrer noopener"
                 href="https://www.facebook.com/biuraimagazyny?rdid=HqlvQdRnyghUzO68&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DPLqqr8jK%2F#"
@@ -755,17 +1703,17 @@
                 <img
                   loading="lazy"
                   class="icon"
-                  width="40"
-                  height="40"
+                  width="30"
+                  height="30"
                   src="./image/footer/facebook-1.avif"
-                  alt="facebook logo"
+                  alt="логотип фейсбук"
                 />
               </a>
             </li>
             <li>
               <a
                 class="js-play-sound"
-                aria-label="Telegram logo"
+                aria-label="логотип телеграм"
                 target="_blank"
                 rel="noreferrer noopener"
                 href="https://telegram.im/@officeinwarsaw"
@@ -773,10 +1721,10 @@
                 <img
                   loading="lazy"
                   class="icon"
-                  width="40"
-                  height="40"
+                  width="30"
+                  height="30"
                   src="./image/footer/telegram-1.avif"
-                  alt="Telegram logo"
+                  alt="логотип телеграм"
                 />
               </a>
             </li>
@@ -843,9 +1791,9 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> 
 
-    <!-- модалька 2 -->
+   <!-- модалка -->
     <div class="backdrop-2 js-backdrop-2 is-hidden-2">
       <div class="modal-2 js-modal-2">
         <div class="contacts__form">
@@ -882,13 +1830,13 @@
             </div>
             <div class="form__text2">
               <h3 class="form__title" data-lang="form_title2">
-                Leave your contact details for a consultation
+                Залиште свої контактні дані для отримання консультації
               </h3>
               <label
                 for="firstname2"
                 class="form__input-name"
                 data-lang="form_name2"
-                >Name*</label
+                >Ім`я*</label
               >
               <input
                 id="firstname2"
@@ -900,11 +1848,8 @@
                 maxlength="10"
                 required
               />
-              <label
-                for="formtel2"
-                class="form__input-name"
-                data-lang="form_tel2"
-                >Phone number*
+              <label for="formtel2" class="form__input-name"
+                >Номер телефону*
               </label>
               <input
                 id="formtel2"
@@ -920,7 +1865,7 @@
                 for="formcomment"
                 class="form__input-name"
                 data-lang="form_comment2"
-                >Message
+                >Повідомлення
               </label>
               <textarea
                 id="formcomment"
@@ -936,7 +1881,7 @@
                 type="submit"
                 data-lang="form_btn2"
               >
-                Send
+                Відправити
               </button>
             </div>
             <div class="form_answer2">
@@ -945,17 +1890,17 @@
                 style="margin-bottom: 0"
                 data-lang="form_answer21"
               >
-                ✅ Message sent
+                ✅ Повідомлення відправлено
               </p>
               <p class="form__answer-text2" data-lang="form_answer22">
-                I will contact you within one hour
+                Зв`яжуся з Вами протягом однієї години
               </p>
             </div>
           </form>
         </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
